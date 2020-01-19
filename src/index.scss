@@ -1,0 +1,67 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.Modal {
+  background-color: #fff;
+  padding: 20px;
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(160, 161, 255);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 450px;
+}
+
+.btn-size {
+  width: 80px;
+  height: 40px;
+}
+
+.modal-text {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
